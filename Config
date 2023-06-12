@@ -4,4 +4,9 @@ Atmega2560
 UART0
 Baudrate 250000
 
+sudo service klipper stop
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AB0K51UG-if00-port0
+sudo service klipper start
+
+
 /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AB0K51UG-if00-port0
