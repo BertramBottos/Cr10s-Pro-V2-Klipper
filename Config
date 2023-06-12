@@ -3,3 +3,5 @@ Atmega2560
 16MHz
 UART0
 Baudrate 250000
+
+/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AB0K51UG-if00-port0
